@@ -33,7 +33,7 @@ router.post("/login", asyncHandler(
       } else {
         res.send("Invalid Password");
       }
-    console.log(vrf)
+    // console.log(vrf)
     }
      else{
        res.status(HTTP_BAD_REQUEST).send("Username or password is invalid!");
